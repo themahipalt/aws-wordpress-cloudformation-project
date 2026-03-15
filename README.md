@@ -61,7 +61,8 @@ The architecture includes:
 aws-wordpress-cloudformation-project
 │
 ├── cloudformation
-│     └── wordpress-stack.yaml
+│     └── wordpress-stack.yaml  
+|                        
 │
 ├── lambda
 │     ├── start_instance.py
@@ -72,7 +73,23 @@ aws-wordpress-cloudformation-project
 │
 └── README.md
 ```
+----
+## wordpress-stack.yaml Structure 
 
+```
+wordpress-stack.yaml
+└── VPC
+    ├── Public Subnet
+    │   └── Web Server (EC2)
+    │
+    ├── Private Subnet
+    │   └── Database Server (EC2)
+    │
+    ├── Internet Gateway
+    ├── NAT Gateway
+    ├── Route Tables
+    └── Security Groups
+```
 ---
 
 ## Deployment Steps
