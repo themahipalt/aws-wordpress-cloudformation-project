@@ -1,3 +1,4 @@
+~~~
 VPC
 │
 ├── Internet Gateway
@@ -28,3 +29,6 @@ VPC
     │
     └── Database Security Group
         └── MySQL (3306) → Allow only from Web Server
+
+
+~~~
