@@ -3,7 +3,7 @@
 ## Architecture Diagram
 
 <p align="center">
-  <img src="docs/architecture.png" width="800"/>
+  <img src="docs/architecture.png" width="600">
 </p>
 
 ## Project Description
