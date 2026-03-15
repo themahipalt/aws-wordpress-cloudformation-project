@@ -91,6 +91,14 @@ wordpress-stack.yaml
     └── Security Groups
 ```
 ---
+---
+```
+EventBridge Scheduler
+   ├── 9 AM → StartInstance Lambda
+   └── 6 PM → StopInstance Lambda
+   ```
+---
+
 
 ## Deployment Steps
 
