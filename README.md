@@ -1,5 +1,11 @@
 # AWS WordPress Deployment using CloudFormation
 
+## Architecture Diagram
+
+<p align="center">
+  <img src="docs/architecture.png" width="800"/>
+</p>
+
 ## Project Description
 
 This project demonstrates how to deploy and manage a WordPress environment on AWS using Infrastructure as Code (IaC) with AWS CloudFormation. The goal is to automate the provisioning of infrastructure resources and ensure a scalable, secure, and cost-effective environment for hosting a WordPress website.
