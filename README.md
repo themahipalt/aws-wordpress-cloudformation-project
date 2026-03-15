@@ -141,3 +141,10 @@ This automation helps optimize AWS usage costs.
 After deployment, the infrastructure will automatically provision a WordPress server environment on AWS. Users will be able to access the WordPress setup page through the EC2 public IP address and configure their blog platform.
 
 The project demonstrates how Infrastructure as Code can be used to automate cloud infrastructure deployment and management in real-world scenarios.
+
+##Step By Step Guide : 
+---
+~~~
+https://docs.google.com/document/d/1uwacJgOm81VYjDdt-oyVFrKrP4sIhjwg/edit?usp=sharing&ouid=113208230447310883264&rtpof=true&sd=true
+~~~
+---
