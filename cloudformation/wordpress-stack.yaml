@@ -1,6 +1,22 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
   "Description": "Two-tier architecture: VPC with public web server and private database using AWS CloudFormation",
+  "Metadata": {
+  "Architecture": {
+    "Description": "Infrastructure created by wordpress-stack.yaml",
+    "Structure": [
+      "VPC",
+      "├── Public Subnet",
+      "│   └── Web Server EC2",
+      "├── Private Subnet",
+      "│   └── Database EC2",
+      "├── Internet Gateway",
+      "├── NAT Gateway",
+      "├── Route Tables",
+      "└── Security Groups"
+    ]
+  }
+},
 
   "Parameters": {
 
